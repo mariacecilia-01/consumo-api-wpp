@@ -4,3 +4,140 @@
     box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    font-family: "Roboto", sans-serif; 
+    display: flex;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    width: 100px;        
+    background-color: #075E54;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+    gap: 100px;
+}
+
+header img{
+    height: 40px;
+    width: auto;   
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    flex: 1;
+}
+
+.contatos{
+    background-color: darkseagreen;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    justify-content: center;
+    padding: 15px;
+    color: #075E54;
+
+}
+
+.cabecalho h1{
+    font-size: 40px;
+}
+
+.cabecalho img{
+    width: auto;
+    height: 50px;
+}
+
+.dadosCabecalho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputContent{
+    position: relative;
+}
+
+.inputContent img{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+input{
+    height: 40px;
+    width:500px;
+    text-align: start;
+    font-size: 20px;
+    border-radius: 12px;
+    background-color: rgb(228, 225, 225);
+    border-style: none;
+    padding-left: 50px;
+}
+
+.contato{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 25px;
+}
+
+.nomeDescricao{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.nome{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.descricao{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.imagemContato{
+    height: auto;
+    width: 90px;
+    border-radius: 100px;
+}
+
+.conversas{
+    background-color: hotpink;
+    display: flex;
+    flex-direction: column;
+}
+
+.blocoMensagem {
+    max-width: 60%;
+    margin: 8px;
+    padding: 10px 14px;
+    border-radius: 10px;
+    font-size: 15px;
+    word-wrap: break-word;
+}
+
+.mensagemUser {
+    background-color: #dcf8c6;
+    align-self: flex-end;
+}
+
+.mensagemContato{
+    background-color: #ffff;
+    border: 1px solid #ddd;
+    align-self: flex-start;
+}
+  
